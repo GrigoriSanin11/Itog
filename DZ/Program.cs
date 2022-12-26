@@ -10,7 +10,7 @@ void main(string[] znach, string[] znach1)
     {
     if (znach[i].Length <= 3)
         {
-            znach1[i] = znach[count];
+            znach1[count] = znach[i];
             count++;
 
         }
